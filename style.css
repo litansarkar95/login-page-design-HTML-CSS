@@ -1,0 +1,200 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.header{
+    background-color: #6900d1;
+    color: #fff;
+}
+.navbar{
+    padding: 20px !important;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: #fff !important;
+    font-size:12px !important;
+    padding: 0 0 5px 0 !important;
+   
+}
+.navbar-toggler{
+    border: 0 !important;
+    outline: none;
+    padding: initial;
+}
+.navbar-nav li a{
+    color: #fff !important;
+}
+.nav-link:hover, .active-home {
+    border-bottom: 2px solid #fff;
+}
+.navbar-brand img{
+    width: 45px;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 40px !important;
+}
+.banner-img{
+    background: url(images/8-business-woman-girl-png-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+   height: 90vh;
+ 
+}
+.text-write{
+    margin-top: 150px;
+    text-align: initial;
+}
+
+.express-btn{
+    background: #fff !important;
+    color: #000 !important;
+    margin-right: 5px;
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #6900d1;
+    text-decoration: none !important;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.express-btn:hover{
+    background: #c0c4c4 !important;
+    border: 2px solid #c0c4c4;
+    color: #6900d1 !important;
+
+}
+/**----------------login-----------------------**/
+.login{
+    margin:3% auto;
+}
+.login h2{
+    text-align: center;
+    font-weight:bold;
+    font-size: 30px;
+}
+/**--------------blog ----------------*/
+.blog .content{
+    margin: 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blog-img img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.blog  h1{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid rgb(5, 197, 139); 
+    line-height: 0.1em;
+    font-size: 70px;
+    margin: 90px 0 ;
+    color: rgb(5, 197, 139);
+    text-transform: uppercase;
+}
+.blog  h1::before{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.blog  h1 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.blog-text{
+
+    margin: 13px;
+    padding: 10px;
+   
+}
+.blog-text h2{
+    font-size: 20px;
+    padding: 20px 0px;
+   
+}
+.blog-text a{
+    margin: 20px;
+}
+.blog-text a:hover{
+    background: #6900d1;
+}
+/* ------------------ footer -------------------*/
+.footer{
+    background: #6900d1;
+    padding-top: 5px;
+    text-align: center;
+}
+.footer h2{
+    color: #fff;
+    font-weight: 600;
+    margin: 70px 0;
+}
+.footer input{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+::placeholder{
+    color: #efefef;
+    font-size: 13px;
+}
+.footer button{
+    padding: 6px;
+    width: 180px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    background: transparent;
+}
+.footer small{
+    font-size: 14px;
+    padding: 70px;
+    padding-bottom:20px;
+    color: #fff;
+    display: block;
+}
+.footer button:hover{
+    color: #000;
+    background: #fff;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
